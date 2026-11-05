@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardián de la Interfaz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <div id="contenedor-bienvenida"></div>
+
+        <form id="form-preferencias" class="card">
+            <h2>Personalizar Entorno</h2>
+
+            <!-- Nombre de user -->
+            <div class="campo">
+                <label for="nombreUsuario">Nombre de Usuario:</label>
+                <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre de usuario">
+            </div>
+
+            <!-- Seleccionar color para el fondo -->
+            <div class="campo">
+                <label for="colorFondo">Color del Fondo:</label>
+                <input type="color" id="colorFondo" value="#FFFFFF">
+            </div>
+
+            <!-- Seleccionar tema -->
+            <div class="campo">
+                <label for="seleccionarTema">Tema:</label>
+                <select id="seleccionarTema">
+                    <option value="claro">Modo Claro</option>
+                    <option value="oscuro">Modo Oscuro</option>
+                </select>
+            </div>
+
+            <!-- Botones -->
+            <div class="botones">
+                <button type="button" id="btnGuardar" class="btn">Guardar Preferencias</button>
+                <button type="button" id="btnReset" class="btn">Resetear Preferencias</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
