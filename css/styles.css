@@ -133,3 +133,25 @@ select:focus {
     border-color: #19295A;
     /* Azul del botón guardar al hacer clic */
 }
+
+/* TEMA OSCURO */
+body.tema-oscuro {
+    background-color: #1a1d20;
+    color: #e6edf3;
+}
+
+body.tema-oscuro main {
+    background-color: #24292e;
+}
+
+body.tema-oscuro h2 {
+    border-bottom-color: #444c56;
+}
+
+body.tema-oscuro input[type="text"],
+body.tema-oscuro select,
+body.tema-oscuro input[type="color"] {
+    background-color: #1a1d20;
+    color: #e6edf3;
+    border-color: #444c56;
+}
